@@ -30,7 +30,6 @@ html {
     background-color: var(--login_page_sign_in_color);
 }
 
-
 .display_block {
     display: block;
 }
@@ -121,6 +120,11 @@ input::placeholder {
     left: 109px;
 }
 
+#forget:hover {
+    text-decoration: underline;
+}
+
+
 #signin_btn {
     position: absolute;
     height: 40px;
@@ -205,6 +209,7 @@ input::placeholder {
         transform: translateX(600px);
     }
 }
+
 
 
 /* Styling for the Login Message starts from here! */
