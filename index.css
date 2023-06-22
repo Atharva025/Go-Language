@@ -30,9 +30,6 @@ html {
     background-color: var(--login_page_sign_in_color);
 }
 
-/* .form>input::first-letter {
-    padding-left: 15px;
-} */
 
 .display_block {
     display: block;
