@@ -61,10 +61,3 @@ function showSignIn() {
     moveFormLeft.classList.add("moveLeftOriginal");
     moveFormLeft.classList.remove("move_right");
 }
-
-function setCursorPos() {
-    var emailInput = document.getElementById("emailId");
-    var pos = 5;
-    emailInput.focus();
-    emailInput.setSelectionRange(pos, pos);
-}
